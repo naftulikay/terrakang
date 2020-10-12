@@ -5,7 +5,6 @@ validate-account-id:
 		echo "ERROR: No AWS account credentials detected." ; \
 		exit 1 ; \
 	fi
-
 	@if [ "$(AWS_ACCOUNT_ID)" != "$(NAFTULI_ACCOUNT_ID)" ]; then \
 		echo "ERROR: Your credentials are for an unknown AWS account ($(AWS_ACCOUNT_ID))." >&2 ; \
 		exit 1 ; \

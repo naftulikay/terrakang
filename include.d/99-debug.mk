@@ -20,11 +20,11 @@ debug-git:
 	@echo
 
 debug-naftuli:
-		@echo "Naftuli Variables"
-		@echo $(LONGBAR)
-		@echo "NAFTULI_ACCOUNT_ID=$(NAFTULI_ACCOUNT_ID)"
-		@echo "NAFTULI_REGION=$(NAFTULI_REGION)"
-		@echo
+	@echo "Naftuli Variables"
+	@echo $(LONGBAR)
+	@echo "NAFTULI_ACCOUNT_ID=$(NAFTULI_ACCOUNT_ID)"
+	@echo "NAFTULI_REGION=$(NAFTULI_REGION)"
+	@echo
 
 debug-terraform:
 	@echo "Terraform Variables"
